@@ -15,4 +15,4 @@ let alunoDH1 = true
 
 console.log("O nome do usuário é " + nomeDeUsuario1)
 console.log("Sua idade é " + idade1 + " anos")
-console.log("É aluno da DH? " + alunoDH1);
+console.log("É aluno da DH? " + alunoDH1)
