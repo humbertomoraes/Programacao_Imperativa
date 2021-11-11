@@ -1,19 +1,21 @@
 // Ex1. O que cada expressão retorna?
 // Dê uma olhada nestes exemplos e pense sobre o que cada um retorna:
-// !true     R.: False
-// !false    R.: True
-// !!false   R.: False
-// !!true    R.: True
-// !1        R.: False
-// !!1       R.: True
-// !0        R.: True
-// !!0       R.: False
-// !!""      R.: False
-// let x = 5 ; R.: Cria variável x e atribui o valor 5
-// let y = 9;  R.: Cria variável y e atribui o valor 9
-// x < 10 && x!==5  R.: Compara se x é menor que 10 e se o valor de x é diferente de 5
-// x>9 || x===5     R.: Compara se x é maior que 9 OU se o valor e tipo de dado de x é igual a 5
-// !(x===y)         R.: erro porque o ! está fora dos parenteses
+// 1 - !true     R.: False
+// 2 - !false    R.: True
+// 3 - !!false   R.: False
+// 4 - !!true    R.: True
+// 5 - !1        R.: False
+// 6 - !!1       R.: True
+// 7 - !0        R.: True
+// 8 - !!0       R.: False
+// 9 - !!""      R.: False
+// 
+// 10 - let x = 5 ; 
+//      let y = 9;  
+//      x < 10 && x!==5  R.: false porque primeiro é true e segundo é false pq x é igual a 5
+//      x>9 || x===5     R.: false ou true então retorna true
+//      !(x===y)         R.: true porque nega a igualdade que seria false entre x e y (5 e 9)
+
 
 
 // Ex2. O que cada expressão retorna?
@@ -21,13 +23,17 @@
 
 // let x=10
 // let y ="a"
-// y==="b" || x >= 10   R.:True porque x é >= 10 embora y seja false
+// y==="b" || x >= 10   R.:false ou true, então retorna True porque x é >= 10 embora y seja false
 
-// let x=3
-// let y=8
-// !(x == "3" || x === y) && !(y !== 8 && x <= y)  R.: erro porque ! está fora dos parenteses
+ let x=3
+ let y=8
+ console.log(!(x == "3" || x === y) && !(y !== 8 && x <= y))  // R.: (true ou false) e (false e true) então retorna true porque cada parenteses tem um true com OU
+
+
 
 // let str = ""
 // let msg = "haha!"
 // let eBonito = "false"
-// !((str || msg) && eBonito) R.: não podem ser usados os nomes str e msg como nome de variáveis nem valor false
+// !((str || msg) && eBonito) R.: não entendi nada
+
+

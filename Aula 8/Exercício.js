@@ -3,12 +3,12 @@
 // Em seguida, faça um if que avalie o valor contido nesta variável. Se o valor armazenado for true, 
 // imprima a seguinte mensagem no console: O valor é true - verdadeiro. Caso contrário, imprima a mensagem: O valor é false - falso.
 
-let status2 = "false"
+let status2 = "True";
 
 if (status2 == "True"){
-    console.log("O valor é True")
+    console.log("O valor é True - verdadeiro");
 }else{
-    console.log("O valor é false")
+    console.log("O valor é false - falso");
 }
 
 
@@ -26,8 +26,8 @@ else {
     console.log("Aprenderei mais tarde");
 }
 
+console.log(linguagem == "javascript"? "Estou aprendendo 2" : "Aprenderei mais tarde 2"); // if ternário
 
-console.log(linguagem == "javascript"? "Estou aprendendo 2" : "Aprenderei mais tarde 2");
 
 let estacao = "primavera";
 
@@ -44,6 +44,10 @@ switch(estacao){
     console.log("É primavera")
     break;
 
-    default:
+    case "outono":
     console.log("É outono")
+    break;
+
+    default:
+    console.log("Que estação é essa???")
 }
