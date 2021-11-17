@@ -17,3 +17,15 @@ console.log("mostrar os novos elementos do array após eliminar o 1º elemento c
 
 console.log("UNSHIFT() acrescenta elemento(s) ao início do array e mostra a quantidade de elementos nova: " + listaCompras.unshift("macarrão", "açucar"))
 console.log("mostrar os novos elementos do array após acrescentar elementos com o unshift " + listaCompras)
+
+
+let num = [1, 2, 3]
+
+
+console.log(num.join("+"))
+
+function somar(num){
+    return console.log(num[0]+num[1]+num[2])
+}
+
+somar(num)
