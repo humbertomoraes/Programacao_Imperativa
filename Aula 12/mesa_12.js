@@ -1,6 +1,5 @@
-let alice = [23, 82, 46]
-let bob = [45, 8, 32]
-let joao = [50, 7, 33]
+let alice = ([47, 82, 46])
+let bob = ([45, 8, 32])
 
 
 function ganhador(a, b) {
@@ -12,9 +11,8 @@ function ganhador(a, b) {
             notaA = notaA + 1;
         } else if (a[contador] < b[contador]) {
             notaB = notaB + 1;
-        }
-
-    }
+}
+}
 
     if (notaA > notaB) {
         return console.log("O ganhador foi Alice");
