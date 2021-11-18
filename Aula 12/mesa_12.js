@@ -24,5 +24,3 @@ function ganhador(a, b) {
 }
 
 ganhador(bob, alice)
-
-ganhador(alice, bob)
