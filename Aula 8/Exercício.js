@@ -5,9 +5,9 @@
 
 let status2 = "True";
 
-if (status2 == "True"){
+if (status2 == "True") {
     console.log("O valor é True - verdadeiro");
-}else{
+} else {
     console.log("O valor é false - falso");
 }
 
@@ -21,33 +21,32 @@ var linguagem = "javascript";
 
 if (linguagem == "javascript") {
     console.log("Estou aprendendo");
-}
-else {
+} else {
     console.log("Aprenderei mais tarde");
 }
 
-console.log(linguagem == "javascript"? "Estou aprendendo 2" : "Aprenderei mais tarde 2"); // if ternário
+console.log(linguagem == "javascript" ? "Estou aprendendo 2" : "Aprenderei mais tarde 2"); // if ternário
 
 
 let estacao = "primavera";
 
-switch(estacao){
+switch (estacao) {
     case "verão":
-    console.log("É verão")
-    break;
+        console.log("É verão")
+        break;
 
     case "inverno":
-    console.log("É inverno")
-    break;
+        console.log("É inverno")
+        break;
 
     case "primavera":
-    console.log("É primavera")
-    break;
+        console.log("É primavera")
+        break;
 
     case "outono":
-    console.log("É outono")
-    break;
+        console.log("É outono")
+        break;
 
     default:
-    console.log("Que estação é essa???")
+        console.log("Que estação é essa???")
 }

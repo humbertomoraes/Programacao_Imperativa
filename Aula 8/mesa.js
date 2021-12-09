@@ -17,7 +17,7 @@ function podeSubir(altura){
         console.log("Acesso autorizado somente com acompanhante")
     }}
 
-    podeSubir(2.42)
+    podeSubir(1.42)
 
 
 // 2)	Modifique a função podeSubir(), de modo que ela exiba uma mensagem de autorização ou de impedimento no acesso ao brinquedo 
